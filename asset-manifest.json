@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/class-net/static/css/main.4300f041.css",
+    "main.js": "/class-net/static/js/main.5cec65db.js",
+    "static/js/787.316b1f87.chunk.js": "/class-net/static/js/787.316b1f87.chunk.js",
+    "static/media/LightClassNetLogo.svg": "/class-net/static/media/LightClassNetLogo.bde34d710527783564aeb8189942b6f3.svg",
+    "static/media/-ClassNetLogo.svg": "/class-net/static/media/-ClassNetLogo.bc9f6107d2b160741858159591663985.svg",
+    "index.html": "/class-net/index.html",
+    "static/media/user.svg": "/class-net/static/media/user.b33a1f41489c1dd2e60f8e6d40bae522.svg",
+    "main.4300f041.css.map": "/class-net/static/css/main.4300f041.css.map",
+    "main.5cec65db.js.map": "/class-net/static/js/main.5cec65db.js.map",
+    "787.316b1f87.chunk.js.map": "/class-net/static/js/787.316b1f87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4300f041.css",
+    "static/js/main.5cec65db.js"
+  ]
+}
