@@ -1,0 +1,108 @@
+.Header {
+    height: 80px;
+    width: 100%;
+    background-color: var(--sidebar-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+
+.headerLogo {
+    height: auto;
+    width: 150px;
+    margin-left: 5%;
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.Profile-Pic{
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+    margin: 13px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.Links p {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.Links p:hover {
+    color: #ffffff;
+}
+
+.MobileLinksShow {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--body-color-2);
+    margin-left: 5%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.MobileLinksShow svg {
+    height: 20px;
+}
+
+.MobileLinks {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--sidebar-color);
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 30px;
+    top: -200vh;
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+}
+
+.open {
+    top: 80px;
+}
+
+
+.MobileLinks p {
+    color: var(--text-color);
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    border: 5px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .headerLogo {
+        margin-left: 0;
+    }
+    
+    .Links {
+        display: none;
+    }
+
+    .MobileLinksShow {
+        display: flex;
+    }
+
+    .MobileLinks {
+        display: flex;
+    }
+}

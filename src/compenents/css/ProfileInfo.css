@@ -1,0 +1,53 @@
+.ProfileInfo{
+    height: fit-content;
+    max-width: 400px;    width: 60%;
+    background-color: rgb(195, 195, 195);
+    position: fixed;
+    right: 0px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visible{
+    display: flex;
+}
+
+.separator{
+    height: 0.5px;
+    width: 100%;
+    background-color: #4d4d4d;
+}
+
+.Info-container{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Info-Name{
+    color: #0d1216;
+    font: 800;
+    font-size: clamp(0.8rem, 5vw, 2rem);
+}
+
+.Info-Email{
+    color: #0d1216B3;
+    font: 100;
+    font-size: clamp(0.5rem, 3vw, 1rem);
+}
+
+.logout-btn{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: #0d1216;
+    border: none;
+    cursor: pointer;
+}
